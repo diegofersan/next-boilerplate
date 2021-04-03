@@ -1,7 +1,11 @@
+import * as S from './styles'
+
 const Main = () => (
-  <main>
-    <h2>React Avançado</h2>
-  </main>
+  <S.Wrapper>
+    <S.Title>Boilerplate</S.Title>
+    <S.Paragraph>Typescript, ReactJS, NextJS e Styled Components</S.Paragraph>
+    <S.Logo src="/img/logo.png" alt="Está escrito Keepress" />
+  </S.Wrapper>
 )
 
 export default Main
